@@ -33,7 +33,7 @@ function NavBar({brojSireva,pronadjiSireve}) {
 
                         </ul>
                         <form className="d-flex">
-                            <input className="form-control me-2" type="search" placeholder="Search" onInput={pronadjiSireve} />
+                            <input className="form-control me-2" type="search" placeholder="Pretrazite koji sir zelite" onInput={pronadjiSireve} />
                         </form>
                     </div>
                 </div>

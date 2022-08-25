@@ -1,0 +1,12 @@
+#slika{
+    margin: 10px;
+    
+}
+#pozadinasira{
+    background-image: url("../components/Agrosaveti-Alpska-i-sanska-rasa-koza-05.jpg");
+
+}
+#nazivsira{
+    color:antiquewhite;
+    font-style: italic;
+}

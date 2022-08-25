@@ -1,17 +1,18 @@
 import React, {useEffect}from 'react'
+import "./sirkartica.css";
 
 function SirKartica({sir,dodajNaListu,ukloniSaListe,prikaziSir,korpa}) {
     const stil={marginRight:10+'px',}
 
     return (
-    <div className="col">
-        <div className="card">
-            <div className="col-5 col-sm-4">
-                <img className="img-fluid w-100" src="https:/picsum.photos/id/24/4855/1803" alt="Neka slika sira" />
+    <div  className="col">
+        <div className="card" id="pozadinasira">
+            <div className="col-6 col-sm-6">
+                <img className="img-fluid w-100" id="slika" src="https://www.gorskisir.rs/images/teglice.jpg" alt="Neka slika sira" />
             </div>
-            <div className="col-7 col-sm-8">
+            <div className="col-6 col-sm-4" marginRight="5px">
                 <div className="card-body">
-                    <h5 className="card-title">
+                    <h5 className="card-title" id="nazivsira">
                         {sir.naziv}
                     </h5>
                     <h6 className="card-title">

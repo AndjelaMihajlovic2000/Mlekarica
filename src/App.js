@@ -10,11 +10,11 @@ import Narudzbine from "./components/Narudzbine";
 function App() {
 
   const [sirevi, setSirevi]= useState([
-    {id: 1,
-            naziv: "Somborski koziji sir",
-            proizvodjac: "Mlekara Sombor",
-            dodatak: "lavanda",
-            opis:"„Sveukupno kravlje i kozje mleko imaju slične količine masti, ali molekuli masti koje se\n" +
+    { "id": 1,
+            "naziv": "Somborski koziji sir",
+            "proizvodjac": "Mlekara Sombor",
+           "dodatak": "lavanda kao dodatak",
+            "opis":"„Sveukupno kravlje i kozje mleko imaju slične količine masti, ali molekuli masti koje se\n" +
                 "\n" +
                 "nalaze u kozjem mleku su manji i lakši za varenje. U poređenju sa kravljim mlekom,\n" +
                 "\n" +
@@ -25,13 +25,13 @@ function App() {
                 "\Kozji sir je bogat proteinima koji se lako i brzo sagorevaju, čime obezbeđuju brz oporavak mišića nakon napornog treninga i drugih fizičkih aktivnosti. Najzastupljeniji protein je kazein. Kazein je nerastvorljivi protein koji naše telo snabdeva svim potrebnim amino-kiselinama. Kazein ima dva oblika: A1 i A2 beta-kazein. n" +
                 "\n" +
                 "\A1 beta-kazein je čest alergen i mnogi ljudi ne mogu da ga svare. Kozje mleko i sir sadrže isključivo lakše probavljivi A2 beta-kazein. Zbog toga je, kada se posmatra sadržaj proteina, kozje mleko najbliže čovekovom mleku. Manje proteina u odnosu na kravlji sir, kozjem siru daje glatku i kremastu strukturu.n" ,
-            narudzbina:0
+            "narudzbina":0
    },
    {
     "id": 2,
     "naziv": "Zlatarski koziji sir",
     "proizvodjac": "Zlatno vrelo",
-    "dodatak": "borovnica",
+    "dodatak": "borovnica kao dodatak",
     "opis":"„Zlatarski sir, koji spada u grupu belih sireva, proizvodi se u seoskim domaćinstvima na sad već tradicionalan način. \n" +
         "\n" +
         "Planinke u pomuženo mleko dodaju maju a nakon jednog sata kroz masu se prođe kašikom kako bi se surutka što bolje odvojila od sira. Onda se sačeka još jedan sat i sir se stavlja u gazu u kojoj opet stoji još jedan sat. \n" +
@@ -49,7 +49,7 @@ function App() {
   "id": 3,
   "naziv": "Dimljeni koziji sir",
   "proizvodjac": "Carpe diem",
-  "dodatak": "zalfija",
+  "dodatak": "zalfija kao dodatak",
   "opis":"„Dimljeni kozji tvrdi sir nije sir koji ćete lako pronaći. Retko koji poizvođač sireva se odluči za ovakav tip proizvoda. \n" +
       "\n" +
       "Jedan od glavnih razloga je što je potrebno mnogo mleka za proizvodnju. Uglavnom, za kilogram mekog kravljeg sira potrebno je oko 4 l mleka, a za kilogram mekog kozijeg sira oko 7 litara mleka. \n" +
