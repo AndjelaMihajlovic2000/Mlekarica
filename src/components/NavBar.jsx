@@ -24,11 +24,11 @@ function NavBar({brojSireva,pronadjiSireve}) {
                                 <Link className="nav-link active" aria-current="page" to="/">Početna</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active" to="/pozajmica">Pozajmice</Link>
+                                <Link className="nav-link active" to="/narudzbina">Narudzbina</Link>
 
                             </li>
                             <li>
-                                <p><GiCheeseWedge size={30}/> Broj sireva koji su naruceni: {brojSireva} </p>
+                                <p><GiCheeseWedge size={40}/> Broj sireva koji su naruceni: {brojSireva} </p>
                             </li>
 
                         </ul>
