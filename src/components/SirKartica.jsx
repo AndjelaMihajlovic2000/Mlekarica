@@ -10,7 +10,7 @@ function SirKartica({sir,dodajNaListu,ukloniSaListe,prikaziSir,korpa}) {
             <div className="col-6 col-sm-6">
                 <img className="img-fluid w-100" id="slika" src="https://www.gorskisir.rs/images/teglice.jpg" alt="Neka slika sira" />
             </div>
-            <div className="col-6 col-sm-4" marginRight="5px">
+            <div className="col-6 col-sm-4">
                 <div className="card-body">
                     <h5 className="card-title" id="nazivsira">
                         {sir.naziv}

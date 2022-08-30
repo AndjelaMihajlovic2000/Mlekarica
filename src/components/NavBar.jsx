@@ -24,7 +24,7 @@ function NavBar({brojSireva,pronadjiSireve}) {
                                 <Link className="nav-link active" aria-current="page" to="/">Početna</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active" to="/narudzbina">Narudzbina</Link>
+                                <Link className="nav-link active" to="/narudzbina">Narudžbina</Link>
 
                             </li>
                             <li>
